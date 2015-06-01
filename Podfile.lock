@@ -1,0 +1,21 @@
+PODS:
+  - pop (1.0.7)
+  - RMGallery (0.1)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - pop
+  - RMGallery
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  RMGallery: b7348f47b5f49997ff7164c0c5866210fcf74fc8
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.37.2
