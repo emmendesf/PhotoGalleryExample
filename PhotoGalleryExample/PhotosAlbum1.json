@@ -1,0 +1,64 @@
+{
+  "albumPhotos": [
+    {
+      "idMidia": "1",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "2",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "3",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "4",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "5",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "6",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "7",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "8",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "9",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    },
+    {
+      "idMidia": "10",
+      "idAlbum": "1",
+      "urlThumbMidia": "",
+      "urlMidiaFull": ""
+    }
+  ]
+}

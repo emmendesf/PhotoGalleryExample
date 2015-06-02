@@ -14,6 +14,8 @@
 		8948CFC61B1D08F2009ECFA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8948CFC51B1D08F2009ECFA8 /* Images.xcassets */; };
 		8948CFC91B1D08F2009ECFA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8948CFC71B1D08F2009ECFA8 /* LaunchScreen.xib */; };
 		8948CFD51B1D08F2009ECFA8 /* PhotoGalleryExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFD41B1D08F2009ECFA8 /* PhotoGalleryExampleTests.m */; };
+		8948CFE21B1D11BD009ECFA8 /* MidiaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFE11B1D11BD009ECFA8 /* MidiaModel.m */; };
+		8948CFE41B1D15F0009ECFA8 /* PhotosAlbum1.json in Resources */ = {isa = PBXBuildFile; fileRef = 8948CFE31B1D15F0009ECFA8 /* PhotosAlbum1.json */; };
 		E02C3DE18E91292C465B3559 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1DC8D15F45C8955B60D53 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,9 @@
 		8948CFCE1B1D08F2009ECFA8 /* PhotoGalleryExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoGalleryExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8948CFD31B1D08F2009ECFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8948CFD41B1D08F2009ECFA8 /* PhotoGalleryExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoGalleryExampleTests.m; sourceTree = "<group>"; };
+		8948CFE01B1D11BD009ECFA8 /* MidiaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiaModel.h; path = Model/MidiaModel.h; sourceTree = "<group>"; };
+		8948CFE11B1D11BD009ECFA8 /* MidiaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidiaModel.m; path = Model/MidiaModel.m; sourceTree = "<group>"; };
+		8948CFE31B1D15F0009ECFA8 /* PhotosAlbum1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PhotosAlbum1.json; sourceTree = "<group>"; };
 		8E1359186486DD549681433B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F630890C47279395B1E0B633 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +101,8 @@
 		8948CFB71B1D08F2009ECFA8 /* PhotoGalleryExample */ = {
 			isa = PBXGroup;
 			children = (
+				8948CFDF1B1D0F00009ECFA8 /* Model */,
+				8948CFDE1B1D0EF8009ECFA8 /* ViewController */,
 				8948CFBC1B1D08F2009ECFA8 /* AppDelegate.h */,
 				8948CFBD1B1D08F2009ECFA8 /* AppDelegate.m */,
 				8948CFBF1B1D08F2009ECFA8 /* ViewController.h */,
@@ -111,6 +118,7 @@
 		8948CFB81B1D08F2009ECFA8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8948CFE31B1D15F0009ECFA8 /* PhotosAlbum1.json */,
 				8948CFB91B1D08F2009ECFA8 /* Info.plist */,
 				8948CFBA1B1D08F2009ECFA8 /* main.m */,
 			);
@@ -132,6 +140,22 @@
 				8948CFD31B1D08F2009ECFA8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8948CFDE1B1D0EF8009ECFA8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8948CFDF1B1D0F00009ECFA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8948CFE01B1D11BD009ECFA8 /* MidiaModel.h */,
+				8948CFE11B1D11BD009ECFA8 /* MidiaModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		AF36E58B9779A070E2E2013A /* Pods */ = {
@@ -225,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8948CFE41B1D15F0009ECFA8 /* PhotosAlbum1.json in Resources */,
 				8948CFC41B1D08F2009ECFA8 /* Main.storyboard in Resources */,
 				8948CFC91B1D08F2009ECFA8 /* LaunchScreen.xib in Resources */,
 				8948CFC61B1D08F2009ECFA8 /* Images.xcassets in Resources */,
@@ -278,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8948CFE21B1D11BD009ECFA8 /* MidiaModel.m in Sources */,
 				8948CFC11B1D08F2009ECFA8 /* ViewController.m in Sources */,
 				8948CFBE1B1D08F2009ECFA8 /* AppDelegate.m in Sources */,
 				8948CFBB1B1D08F2009ECFA8 /* main.m in Sources */,
