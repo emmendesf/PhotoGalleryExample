@@ -1,64 +1,64 @@
 {
-  "albumPhotos": [
-    {
-      "idMidia": "1",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "2",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "3",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "4",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "5",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "6",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "7",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "8",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "9",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    },
-    {
-      "idMidia": "10",
-      "idAlbum": "1",
-      "urlThumbMidia": "",
-      "urlMidiaFull": ""
-    }
-  ]
+    "albumPhotos": [
+                    {
+                    "idMidia": "1",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages-foehr-7-1024x683.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages-foehr-7-1024x683.jpg"
+                    },
+                    {
+                    "idMidia": "2",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1204_17-1024x680.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1204_17-1024x680.jpg"
+                    },
+                    {
+                    "idMidia": "3",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1304-5-1024x680.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1304-5-1024x680.jpg"
+                    },
+                    {
+                    "idMidia": "4",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1204_05-1024x680.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1204_05-1024x680.jpg"
+                    },
+                    {
+                    "idMidia": "5",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1904_09-1024x696.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1904_09-1024x696.jpg"
+                    },
+                    {
+                    "idMidia": "6",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1904_03-1024x680.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1904_03-1024x680.jpg"
+                    },
+                    {
+                    "idMidia": "7",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1904_06-1024x680.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1904_06-1024x680.jpg"
+                    },
+                    {
+                    "idMidia": "8",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1904_05-1024x680.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_1904_05-1024x680.jpg"
+                    },
+                    {
+                    "idMidia": "9",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_2604_01-1024x685.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/04/barnimages_2604_01-1024x685.jpg"
+                    },
+                    {
+                    "idMidia": "10",
+                    "idAlbum": "1",
+                    "urlThumbMidia": "http://barnimages.com/wp-content/uploads/2015/05/BarnImages.com-Riga-2-1024x679.jpg",
+                    "urlMidiaFull": "http://barnimages.com/wp-content/uploads/2015/05/BarnImages.com-Riga-2-1024x679.jpg"
+                    }
+                    ]
 }

@@ -15,6 +15,7 @@
 @property(nonatomic, strong) NSString *urlThumbMidia;
 @property(nonatomic, strong) NSString *urlMidiaFull;
 
-
++ (MidiaModel *) parseMidiaWithJSON:(NSDictionary *)json;
++ (NSArray *) parseListOfMidiasWithArray:(NSArray *)array;
 
 @end

@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		8948CFBB1B1D08F2009ECFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFBA1B1D08F2009ECFA8 /* main.m */; };
 		8948CFBE1B1D08F2009ECFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFBD1B1D08F2009ECFA8 /* AppDelegate.m */; };
-		8948CFC11B1D08F2009ECFA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFC01B1D08F2009ECFA8 /* ViewController.m */; };
 		8948CFC41B1D08F2009ECFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8948CFC21B1D08F2009ECFA8 /* Main.storyboard */; };
 		8948CFC61B1D08F2009ECFA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8948CFC51B1D08F2009ECFA8 /* Images.xcassets */; };
 		8948CFC91B1D08F2009ECFA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8948CFC71B1D08F2009ECFA8 /* LaunchScreen.xib */; };
 		8948CFD51B1D08F2009ECFA8 /* PhotoGalleryExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFD41B1D08F2009ECFA8 /* PhotoGalleryExampleTests.m */; };
 		8948CFE21B1D11BD009ECFA8 /* MidiaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFE11B1D11BD009ECFA8 /* MidiaModel.m */; };
 		8948CFE41B1D15F0009ECFA8 /* PhotosAlbum1.json in Resources */ = {isa = PBXBuildFile; fileRef = 8948CFE31B1D15F0009ECFA8 /* PhotosAlbum1.json */; };
+		8948CFE81B1DB6D4009ECFA8 /* PhotoEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFE71B1DB6D4009ECFA8 /* PhotoEngine.m */; };
+		8948CFEB1B1DB9DA009ECFA8 /* PhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFEA1B1DB9DA009ECFA8 /* PhotoGalleryViewController.m */; };
+		8948CFEE1B1DB9FA009ECFA8 /* ListOfPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFED1B1DB9FA009ECFA8 /* ListOfPhotosViewController.m */; };
+		8948CFF11B1DBC5A009ECFA8 /* PhotoCollectionViewCellLayout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8948CFF01B1DBC5A009ECFA8 /* PhotoCollectionViewCellLayout.xib */; };
+		8948CFF61B1DBDC9009ECFA8 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFF51B1DBDC9009ECFA8 /* PhotoCollectionViewCell.m */; };
+		8948CFFB1B1DF452009ECFA8 /* FlipAnimationInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948CFF91B1DF452009ECFA8 /* FlipAnimationInteractor.m */; };
 		E02C3DE18E91292C465B3559 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1DC8D15F45C8955B60D53 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +41,6 @@
 		8948CFBA1B1D08F2009ECFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8948CFBC1B1D08F2009ECFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8948CFBD1B1D08F2009ECFA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8948CFBF1B1D08F2009ECFA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8948CFC01B1D08F2009ECFA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8948CFC31B1D08F2009ECFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8948CFC51B1D08F2009ECFA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8948CFC81B1D08F2009ECFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,6 +50,18 @@
 		8948CFE01B1D11BD009ECFA8 /* MidiaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiaModel.h; path = Model/MidiaModel.h; sourceTree = "<group>"; };
 		8948CFE11B1D11BD009ECFA8 /* MidiaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidiaModel.m; path = Model/MidiaModel.m; sourceTree = "<group>"; };
 		8948CFE31B1D15F0009ECFA8 /* PhotosAlbum1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PhotosAlbum1.json; sourceTree = "<group>"; };
+		8948CFE61B1DB6D4009ECFA8 /* PhotoEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoEngine.h; path = Engine/PhotoEngine.h; sourceTree = "<group>"; };
+		8948CFE71B1DB6D4009ECFA8 /* PhotoEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoEngine.m; path = Engine/PhotoEngine.m; sourceTree = "<group>"; };
+		8948CFE91B1DB9DA009ECFA8 /* PhotoGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGalleryViewController.h; path = ViewController/PhotoGalleryViewController.h; sourceTree = "<group>"; };
+		8948CFEA1B1DB9DA009ECFA8 /* PhotoGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGalleryViewController.m; path = ViewController/PhotoGalleryViewController.m; sourceTree = "<group>"; };
+		8948CFEC1B1DB9FA009ECFA8 /* ListOfPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfPhotosViewController.h; sourceTree = "<group>"; };
+		8948CFED1B1DB9FA009ECFA8 /* ListOfPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfPhotosViewController.m; sourceTree = "<group>"; };
+		8948CFF01B1DBC5A009ECFA8 /* PhotoCollectionViewCellLayout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCellLayout.xib; sourceTree = "<group>"; };
+		8948CFF41B1DBDC9009ECFA8 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoCollectionViewCell.h; path = Custom/Cell/PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		8948CFF51B1DBDC9009ECFA8 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoCollectionViewCell.m; path = Custom/Cell/PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		8948CFF81B1DF452009ECFA8 /* FlipAnimationInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipAnimationInteractor.h; sourceTree = "<group>"; };
+		8948CFF91B1DF452009ECFA8 /* FlipAnimationInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationInteractor.m; sourceTree = "<group>"; };
+		8948CFFA1B1DF452009ECFA8 /* InteractiveTransitionViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransitionViewControllerDelegate.h; sourceTree = "<group>"; };
 		8E1359186486DD549681433B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F630890C47279395B1E0B633 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,12 +116,12 @@
 		8948CFB71B1D08F2009ECFA8 /* PhotoGalleryExample */ = {
 			isa = PBXGroup;
 			children = (
+				8948CFF21B1DBD79009ECFA8 /* Custom */,
+				8948CFE51B1DB6B5009ECFA8 /* Engine */,
 				8948CFDF1B1D0F00009ECFA8 /* Model */,
 				8948CFDE1B1D0EF8009ECFA8 /* ViewController */,
 				8948CFBC1B1D08F2009ECFA8 /* AppDelegate.h */,
 				8948CFBD1B1D08F2009ECFA8 /* AppDelegate.m */,
-				8948CFBF1B1D08F2009ECFA8 /* ViewController.h */,
-				8948CFC01B1D08F2009ECFA8 /* ViewController.m */,
 				8948CFC21B1D08F2009ECFA8 /* Main.storyboard */,
 				8948CFC51B1D08F2009ECFA8 /* Images.xcassets */,
 				8948CFC71B1D08F2009ECFA8 /* LaunchScreen.xib */,
@@ -145,6 +160,10 @@
 		8948CFDE1B1D0EF8009ECFA8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8948CFE91B1DB9DA009ECFA8 /* PhotoGalleryViewController.h */,
+				8948CFEA1B1DB9DA009ECFA8 /* PhotoGalleryViewController.m */,
+				8948CFEC1B1DB9FA009ECFA8 /* ListOfPhotosViewController.h */,
+				8948CFED1B1DB9FA009ECFA8 /* ListOfPhotosViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -156,6 +175,52 @@
 				8948CFE11B1D11BD009ECFA8 /* MidiaModel.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		8948CFE51B1DB6B5009ECFA8 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				8948CFE61B1DB6D4009ECFA8 /* PhotoEngine.h */,
+				8948CFE71B1DB6D4009ECFA8 /* PhotoEngine.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		8948CFEF1B1DBBED009ECFA8 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				8948CFF01B1DBC5A009ECFA8 /* PhotoCollectionViewCellLayout.xib */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		8948CFF21B1DBD79009ECFA8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8948CFF71B1DF432009ECFA8 /* Transition */,
+				8948CFEF1B1DBBED009ECFA8 /* Layout */,
+				8948CFF31B1DBD8E009ECFA8 /* Cell */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		8948CFF31B1DBD8E009ECFA8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8948CFF41B1DBDC9009ECFA8 /* PhotoCollectionViewCell.h */,
+				8948CFF51B1DBDC9009ECFA8 /* PhotoCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		8948CFF71B1DF432009ECFA8 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				8948CFF81B1DF452009ECFA8 /* FlipAnimationInteractor.h */,
+				8948CFF91B1DF452009ECFA8 /* FlipAnimationInteractor.m */,
+				8948CFFA1B1DF452009ECFA8 /* InteractiveTransitionViewControllerDelegate.h */,
+			);
+			name = Transition;
 			sourceTree = "<group>";
 		};
 		AF36E58B9779A070E2E2013A /* Pods */ = {
@@ -249,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8948CFF11B1DBC5A009ECFA8 /* PhotoCollectionViewCellLayout.xib in Resources */,
 				8948CFE41B1D15F0009ECFA8 /* PhotosAlbum1.json in Resources */,
 				8948CFC41B1D08F2009ECFA8 /* Main.storyboard in Resources */,
 				8948CFC91B1D08F2009ECFA8 /* LaunchScreen.xib in Resources */,
@@ -304,7 +370,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8948CFE21B1D11BD009ECFA8 /* MidiaModel.m in Sources */,
-				8948CFC11B1D08F2009ECFA8 /* ViewController.m in Sources */,
+				8948CFE81B1DB6D4009ECFA8 /* PhotoEngine.m in Sources */,
+				8948CFFB1B1DF452009ECFA8 /* FlipAnimationInteractor.m in Sources */,
+				8948CFEB1B1DB9DA009ECFA8 /* PhotoGalleryViewController.m in Sources */,
+				8948CFEE1B1DB9FA009ECFA8 /* ListOfPhotosViewController.m in Sources */,
+				8948CFF61B1DBDC9009ECFA8 /* PhotoCollectionViewCell.m in Sources */,
 				8948CFBE1B1D08F2009ECFA8 /* AppDelegate.m in Sources */,
 				8948CFBB1B1D08F2009ECFA8 /* main.m in Sources */,
 			);

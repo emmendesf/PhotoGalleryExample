@@ -10,5 +10,27 @@
 
 @implementation MidiaModel
 
++ (MidiaModel *) parseMidiaWithJSON:(NSDictionary *)json {
+    
+    MidiaModel *model = [MidiaModel new];
+    
+    model.idMidia = [json objectForKey:@"idMidia"];
+    model.idAlbum = [json objectForKey:@"idAlbum"];
+    model.urlThumbMidia = [json objectForKey:@"urlThumbMidia"];
+    model.urlMidiaFull = [json objectForKey:@"urlMidiaFull"];
+    
+    return model;
+}
+
++ (NSArray *) parseListOfMidiasWithArray:(NSArray *)array {
+    
+    NSMutableArray *photoList = [NSMutableArray new];
+    
+    for ( NSDictionary *dict in array ) {
+        [photoList addObject:[self parseMidiaWithJSON:dict]];
+    }
+    
+    return photoList;
+}
 
 @end
